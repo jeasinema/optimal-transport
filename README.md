@@ -9,5 +9,5 @@ See [Documentation/index.html](http://htmlpreview.github.io/?https://github.com/
 3. Compile LEMON as the doc it provided
 4. Download CPLEX Community Edition from [here](https://ak-dsw-mul.dhe.ibm.com/sdfdl/v2/fulfill/CNN0KML/Xa.2/Xb.apj9sOpp4MomMLXUqcDqLQAl0aa33cr32ZezzyYw4uc/Xc.CNN0KML/COSCE128MACOS.zip/Xd./Xf.LPR.D1VC/Xg.9582191/Xi.ESD-ILOG-OPST-EVAL/XY.regsrvs/XZ.vQm1VBxQt03z3wPAgNmt_Fp9Izk/COSCE128MACOS.zip)
 5. Extract and install CPLEX Community Edition
-6. Follow the guild as the origin documentation
+6. Follow the guide as the origin documentation
 
