@@ -1,7 +1,7 @@
 #ifndef TCostFunctionProvider_Dynamic_H_
 #define TCostFunctionProvider_Dynamic_H_
 
-#include<stdlib.h>
+#include<cmath>
 #include<vector>
 #include"TVarListHandler.h"
 #include"TCostFunctionProvider.h"
@@ -88,7 +88,7 @@ class TCostFunctionProvider_Dynamic_Torus : public TCostFunctionProvider_Dynamic
 		double result,diff;
 		result=0;
 		for(int i=0;i<dim;i++) {
-			diff=abs(xPos[x*dim+i]-yPos[y*dim+i]);
+			diff=std::abs((double)(xPos[x*dim+i]-yPos[y*dim+i]));
 			if(i<torusDim) {
 				diff=min(diff,radius[i]-diff);
 			}
